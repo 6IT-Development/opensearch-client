@@ -1,13 +1,13 @@
 {
-  "name": "pimcore/opensearch-client",
-  "license": "GPL-3.0+",
+  "name": "six-it/opensearch-client",
+  "license": "GPL-3.0-or-later",
   "type": "pimcore-bundle",
   "description": "Pimcore Opensearch Client",
   "config": {
     "discard-changes": true,
     "sort-packages": true,
     "preferred-install": {
-      "pimcore/pimcore": "source",
+      "six-it/pimcore-source": "source",
       "*": "dist"
     },
     "allow-plugins": {
@@ -18,7 +18,7 @@
   "minimum-stability": "dev",
   "require": {
     "php": "^8.1",
-    "pimcore/pimcore": "^11.5",
+    "six-it/pimcore-source": "^1.0",
     "opensearch-project/opensearch-php": "^2.2.0"
   },
   "conflict": {
